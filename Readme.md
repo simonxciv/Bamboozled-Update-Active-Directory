@@ -15,4 +15,6 @@ A simple PowerShell script to update the details of AD users via the BambooHR AP
    - **$server:** The hostname of a server on your network with the appropriate roles installed.
 4. Run the script under a user account with the permissions required to edit user information in Active Directory.
 
+---
+
 *For bonus points, run the script as a scheduled task to complete this automatically once a day or as regularly as needed. Your users will thank you for keeping their Outlook Address Book up to date.*
