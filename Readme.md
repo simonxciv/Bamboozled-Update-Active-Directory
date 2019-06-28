@@ -4,11 +4,11 @@ A simple PowerShell script to update the details of AD users via the BambooHR AP
 
 ## Installation
 
-1. Install the [Bamboozled PowerShell Module](https://github.com/simonxciv/Bamboozled)
-   - Open an Administrative PowerShell window
-   - Run `Install-Module -name Bamboozled`
-   - If prompted, type `Y` followed by `[enter]` to approve the install
-2. Download and open `update-ad-details.ps1` from this repo in your editor of choice
+1. Install the [Bamboozled PowerShell Module](https://github.com/simonxciv/Bamboozled).
+   - Open an Administrative PowerShell window.
+   - Run `Install-Module -name Bamboozled`.
+   - If prompted, type `Y` followed by `[enter]` to approve the install.
+2. Download and extract `update-ad-details.ps1` from this repo. Open in your editor of choice.
 3. Uncomment the `Editable variables` comment block at the top of the script. Fill out the below variables with the relevant values:
    - **$apiKey:** Your BambooHR API key. See [here](https://www.bamboohr.com/api/documentation/) for more information.
    - **$subdomain:** Your BambooHR subdomain. This is the 'company' part of 'company.bamboohr.com', where you'd usually access your BambooHR instance.
